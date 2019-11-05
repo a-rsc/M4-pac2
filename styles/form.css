@@ -1,0 +1,64 @@
+fieldset {
+    max-width: 100%;
+    width: 100%;
+
+    margin-bottom: 15px;
+    padding: 15px 1%;
+}
+.form-group {
+    width: 100%;
+
+    margin-bottom: 1px;
+    padding: 10px 0;
+}
+.form-group:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.form-group > label {
+    float: left;
+
+    width: 23%;
+
+    padding: 6px 1%;
+
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: right;
+
+    cursor: pointer;
+}
+.form-group-input input[type=text],
+.form-group-input input[type=email] {
+    width: 71%;
+
+    padding: 8px;
+}
+.form-group-input span {
+    margin-left: 1px;
+    padding: 0;
+
+    color: gold;
+}
+.form-group-checkbox label {
+    float: none;
+
+    text-align: center;
+}
+.form-group-checkbox,
+.form-group-submit {
+    margin: 0 auto;
+
+    text-align: center;
+}
+.form-group-submit input[type=submit] {
+    color: initial;
+
+    border: 1px solid black;
+    background-color: greenYellow;
+}
+.form-group-checkbox a {
+    color: orangeRed;
+    text-decoration: underline;
+}

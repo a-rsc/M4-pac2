@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Práctica 2 · DAM1-M4: llenguatge de marques i sistemes de gestió de la informació">
+    <meta name="keywords" content="">
+    <meta name="author" content="Educem · Álvaro Rodríguez Santa Cruz">
+
+    <title>Bruce Lee's Store</title>
+
+    <link rel="icon" href="./images/bl-8.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+</head>
+<body>
+    <header class="container-100 navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="./index.html" title="Bruce Lee">
+                    <div class="outer-logo"><div class="inner-logo"></div></div>
+                </a>
+            </div>
+            <nav>
+                <div class="navbar-item">
+                    <a href="#" title="Bruce Lee">Bruce Lee</a>
+                </div>
+                <div class="navbar-item">
+                    <a href="#" title="Gallery">Gallery</a>
+                </div>
+                <div class="navbar-item">
+                    <a href="#" title="Filmography">Filmography</a>
+                </div>
+                <div class="navbar-item navbar-item-checked">
+                    <a href="./index.html" title="Online Store">Online Store</a>
+                </div>
+                <div class="navbar-item">
+                    <a href="#" title="Contact us!">Contact us!</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="container-100">
+        <section id="main-slider">
+            <div class="main-slider-description">
+                <div class="container">
+                    <article>
+                        <hgroup>
+                            <h1>Bruce Lee</h1>
+                            <h2>Born: <span>November 27, 1940 in San Francisco, California, USA</span></h2>
+                            <h2>Died: <span>July 20, 1973 in Kowloon, Hong Kong</span></h2>
+                        </hgroup>
+                        <p>Bruce Lee remains the greatest icon of martial arts cinema and a key figure of modern popular media. Had it not been for Bruce Lee and his movies in the early 1970s, it's arguable whether or not the martial arts film genre would have ever penetrated and influenced mainstream North American and European cinema and audiences the way it has over the past four decades.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="row">
+                <div class="col col-lg-100">
+                    <hgroup class="main-title">
+                        <h1>Online Store</h1>
+                        <h2>Nuestros productos</h2>
+                    </hgroup>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-xl-100 col-md-50 col-lg-25 article-item parent">
+                    <a href="#" title="Article 1">
+                        <img class="box1 article-img-100" src="./images/bl-8.jpg" title="Article 1">
+                        <img class="box2" src="./images/shop/sold-out.png" title="Sold Out">
+                    </a>
+                </div>
+                <div class="col col-xl-100 col-md-50 col-lg-25 article-item">
+                    <a href="#" title="Article 1">
+                        <div>
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quas nisi tempore quos iure unde sit, accusantium nostrum eligendi sapiente, dignissimos voluptas placeat excepturi natus, repudiandae blanditiis inventore ad sequi!</p>
+                        </div>
+                    </a>
+                    <div class="box-likes">
+                        <button type="button" class="btn-likes" title="+1 like">&#128150;</button><span class="likes-dislikes">48</span>
+                        <button type="button" class="btn-likes" title="+1 dislike">&#128148;</button><span class="likes-dislikes">7</span>
+                    </div>
+                    <button type="button" class="btn-readmore" title="Read more!">Read more!</button>
+                </div>
+                <div class="col col-xl-100 col-md-50 col-lg-25 article-item">
+                    <a href="#" title="Article 2">
+                        <img class="article-img-100" src="./images/bl-12.jpg" title="Article 2">
+                    </a>
+                </div>
+                <div class="col col-xl-100 col-md-50 col-lg-25 article-item">
+                    <a href="#" title="Article 2">
+                        <div>
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quas nisi tempore quos iure unde sit, accusantium nostrum eligendi sapiente, dignissimos voluptas placeat excepturi natus, repudiandae blanditiis inventore ad sequi!</p>
+                        </div>
+                    </a>
+                    <div class="box-likes">
+                        <button type="button" class="btn-likes" title="+1 like">&#128150;</button><span class="likes-dislikes">23</span>
+                        <button type="button" class="btn-likes" title="+1 dislike">&#128148;</button><span class="likes-dislikes">9</span>
+                    </div>
+                    <button type="button" class="btn-readmore" title="Read more!">Read more!</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-xl-100 col-md-50 col-lg-25 article-item">
+                    <img class="article-img-100 article-img" src="./images/bl-8.jpg" title="Article 3">
+                    <div class="article-description">
+                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <div class="box-units"><button type="button" class="btn-units" title="-1 unit">-</button><span id="units" class="units">1</span><button type="button" class="btn-units" title="+1 unit">+</button></div>
+                        <div class="box-units"><button type="button" class="btn-units" title="-1 unit">-</button><span id="price" class="units">45</span><button type="button" class="btn-units" title="+1 unit">+</button></div>
+                        <button class="btn-submit" type="button" title="Comprar!">Comprar!</button>
+                    </div>
+                </div>
+                <div class="col col-xl-100 col-md-50 col-lg-25 article-item">
+                    <img class="article-img-100 article-img" src="./images/bl-9.jpg" title="Article 4">
+                    <div class="article-description">
+                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <div class="box-units"><button type="button" class="btn-units" title="-1 unit">-</button><span id="units" class="units">1</span><button type="button" class="btn-units" title="+1 unit">+</button></div>
+                        <div class="box-units"><button type="button" class="btn-units" title="-1 unit">-</button><span id="price" class="units">35</span><button type="button" class="btn-units" title="+1 unit">+</button></div>
+                        <button class="btn-submit" type="button" title="Comprar!">Comprar!</button>
+                    </div>
+                </div>
+                <div class="col col-xl-100 col-md-50 col-lg-25 article-item parent">
+                    <div class="box1">
+                        <img class="article-img-100 article-img" src="./images/bl-10.jpg" title="Article 5">
+                        <div class="article-description">
+                            <h5>Lorem ipsum dolor sit amet.</h5>
+                            <div class="box-units"><button type="button" class="btn-units" title="-1 unit" disabled="true">-</button><span id="units" class="units">1</span><button type="button" class="btn-units" title="+1 unit" disabled="true">+</button></div>
+                            <div class="box-units"><button type="button" class="btn-units" title="-1 unit" disabled="true">-</button><span id="price" class="units">12</span><button type="button" class="btn-units" title="+1 unit" disabled="true">+</button></div>
+                            <button class="btn-submit" type="button" title="Comprar!" disabled="true">Comprar!</button>
+                        </div>
+                    </div>
+                    <img class="box2" src="./images/shop/sold-out.png" title="Sold Out">
+                </div>
+                <div class="col col-xl-100 col-md-50 col-lg-25 article-item">
+                    <img class="article-img-100 article-img" src="./images/bl-3.jpg" title="Article 6">
+                    <div class="article-description">
+                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <div class="box-units"><button type="button" class="btn-units" title="-1 unit">-</button><span id="units" class="units">3</span><button type="button" class="btn-units" title="+1 unit">+</button></div>
+                        <div class="box-units"><button type="button" class="btn-units" title="-1 unit">-</button><span id="price" class="units">18</span><button type="button" class="btn-units" title="+1 unit">+</button></div>
+                        <button class="btn-submit" type="button" title="Comprar!">Comprar!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-md-100 col-lg-33">
+                    <h1>Contact us!</h1>
+                    <form method="get" action="" autocomplete='on' enctype="multipart">
+                        <fieldset>
+                            <div class="form-group">
+                                <label for="firstname">Nombre:</label>
+                                <div class="form-group-input">
+                                    <input type="text" name="firstname" id="firstname" required="true" placeholder="nombre"><span>&#9733;</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="surname">Apellidos:</label>
+                                <div class="form-group-input">
+                                    <input type="text" name="surname" id="surname" required="true" placeholder="apellidos"><span>&#9733;</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <div class="form-group-input">
+                                    <input type="email" name="email" id="email" required="true" placeholder="email"><span>&#9733;</span>
+                                </div>
+                            </div>
+                            <div class="form-group form-group-checkbox">
+                                <label for="suscripcion"><input type="checkbox" name="suscripcion" id="suscripcion" value="suscripcion" checked="true"> Acepto las <a href="./normativa/condiciones-de-uso.html" title="Condiciones de Uso" target="_blank">condiciones de uso</a></label>
+                            </div>
+                            <div class="form-group form-group-submit">
+                                <input class="btn-submit" type="submit" name="submit" value="Contact us!">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="col col-md-100 col-lg-33 article-item">
+                    <h1>The last news</h1>
+                    <video id="myVideo" autoplay muted loop>
+                        <source src="http://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+                    </video>
+                    <time datetime="2008-10-02 00:00"><strong>Data de publicació:</strong> 2019-10-31 18:43</time>
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quas nisi tempore quos iure unde sit, accusantium nostrum eligendi sapiente, dignissimos voluptas placeat excepturi natus, repudiandae blanditiis inventore ad sequi!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque error magni fugit illo sequi quasi dolores harum, eveniet molestias, obcaecati necessitatibus impedit voluptatibus? Magni quos, aperiam. Porro, natus quaerat repellendus. Incidunt dolore recusandae doloremque error, minima quis quidem explicabo, dolores ducimus accusantium unde quia officiis ut laboriosam pariatur cum eius eum aliquid quibusdam, quos. Laudantium rem pariatur iure recusandae a sit, cupiditate suscipit. Iste, alias iure maxime doloremque ut enim velit reprehenderit magni. Consequuntur temporibus sint aut iste, ipsa nemo dolor tempora ex explicabo iusto magni a mollitia incidunt cupiditate ut ea tempore! Nulla iste, asperiores reiciendis numquam labore odio.</p>
+                    <button type="button" class="btn-readmore" title="Read more!">Read more!</button>
+                </div>
+                <div class="col col-md-100 col-lg-33 article-item company">
+                    <h1>Bruce Lee's Store, Inc.</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32659223.821255505!2d-145.06310969803323!3d2.2575433543170234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c6597044aeb1%3A0x89dfaacab8307478!2sEstatua%20de%20Bruce%20Lee!5e0!3m2!1ses!2ses!4v1572545582740!5m2!1ses!2ses" width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    <p>This is our email link:<a href="mailto:hi@brucelee.online?Subject=Hello!" target="_top">Send Mail</a></p>
+                    <p>This is our phone link:<a href="tel:+0123456789">012-345-6789</a></p>
+                    <div class="rrss">
+                        <a href="#" title="Facebook · Bruce Lee's Shop"><img src="./images/rrss/facebook.png" title="Facebook · Bruce Lee's Shop"></a>
+                        <a href="#" title="Instagram · Bruce Lee's Shop""><img src="./images/rrss/instagram.png" title="Instagram · Bruce Lee's Shop"></a>
+                        <a href="#" title="Twitter · Bruce Lee's Shop""><img src="./images/rrss/twitter.png" title="Twitter · Bruce Lee's Shop"></a>
+                        <a href="#" title="Google+ · Bruce Lee's Shop""><img src="./images/rrss/google+.png" title="Google+ · Bruce Lee's Shop"></a>
+                    </div>
+                    <p class="copyright">Bruce Lee's Store, Inc.<strong>&copy; 2019 brucelee.store</strong><p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-lg-100">
+                    <div class="postit">
+                        <h3>Explicación</h3>
+                        <p>La práctica ha consistido en una tienda online responsive en código html y css. La página debía contener un menú de navegación, un slider, algunos enlaces, algunos artículos e información diversa de la tienda.</p>
+                        <p>En lo referente a los estilos, he empezado con un código extraído en la web github (reset.css) que resetea todos los estilos propios de un navegador. De este modo, maquetaba con mis propios estilos (styles.css) el diseño exacto para cualquier navegador. En styles.css he importado la fuente y las demás hojas de estilo.</p>
+                        <p>El menú de navegación consta de un logo que escala la imagen ante la acción hover y un menú navbar clásico con subrayado dinámico ante la acción hover. He utilizado un breakpoint en un ancho de 600px ya que el navbar se desalineaba.</p>
+                        <p>El slider no tiene ningún secreto, he utilizado para la imagen un width de 100% (ventana del navegador) y para la descripción un max-width de 1200px centrado.</p>
+                        <p>El main se divide en rows con sus respectivas columns. He diseñado un estilo similar a bootstrap para maquetar el porcentaje de las cajas según el ancho. Creo que si no se utiliza javascript deben utilizarse mediaqueries para cada ancho. Además, he utilizado la propiedad display flex para que todas las columnas tuviesen la misma altura por row y algunas imágenes fluyesen. El único problema es que con display flex las columnas no se rompen y no se realizan los breakpoints, por eso he utilizado la flex-basis que permite ejecutar los floats para cada breakpoint.</p>
+                        <p>Por último, comentar que he utilizado las propiedades clear, content y display en el after de los divs en lugar de overflow. ¿Por qué? Es verdad que en esta práctica no hay ninguna diferencia, pero si tuviéramos algún div tipo menú/submenú que sobrepasara la altura del contenedor y apareciera mediante javascript, el overflow hidden lo cortaría.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

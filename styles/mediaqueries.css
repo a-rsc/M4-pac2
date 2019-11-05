@@ -1,0 +1,138 @@
+@media (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+    .navbar nav {
+        float: none;
+
+        width: auto;
+    }
+    .navbar nav a {
+        font-size: 0.85em;
+    }
+    .main-slider-description h1 {
+        font-size: 1.6em;
+    }
+    .main-slider-description h2 {
+        font-size: 1.2em;
+    }
+    .main-slider-description .container article {
+        margin: 0 auto;
+
+        width: 90%;
+    }
+    .col-md-100 {
+        float: left;
+
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .col-md-75 {
+        float: left;
+
+        width: 75%;
+        flex-basis: 75%;
+    }
+    .col-md-50 {
+        float: left;
+
+        width: 49%;
+        flex-basis: 49%;
+    }
+    .col-md-50:nth-child(3n) {
+        clear: both;
+    }
+    .col-md-25 {
+        float: left;
+
+        width: 24%;
+        flex-basis: 24%;
+    }
+    .col-md-25:nth-child(5n) {
+        clear: both;
+    }
+    .company {
+        position: static
+    }
+    .copyright {
+        position: static;
+
+        bottom: auto;
+        right: auto;
+
+        text-align: right;
+
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo {
+        display: block;
+    }
+    .navbar nav {
+        float: right;
+
+        width: 75%;
+
+        padding-right: 5%;
+    }
+    .navbar nav .navbar-item {
+        float: none;
+
+        width: auto;
+
+        margin: 10px;
+
+        text-align: right;
+    }
+    .navbar nav .navbar-item-checked,
+    .navbar nav .navbar-item:active,
+    .navbar nav .navbar-item:hover {
+        border-bottom: none;
+    }
+    .navbar nav a {
+        padding: 4px 0;
+
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 420px) {
+    .main-slider-description h1 {
+        font-size: 1.5em;
+    }
+    .main-slider-description h2 {
+        font-size: 1em;
+    }
+    .col-xl-100 {
+        float: none;
+
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .col-xl-75 {
+        float: left;
+
+        width: 75%;
+        flex-basis: 75%;
+    }
+    .col-xl-50 {
+        float: left;
+
+        width: 49%;
+        flex-basis: 49%;
+    }
+    .col-xl-50:nth-child(3n) {
+        clear: both;
+    }
+    .col-xl-25 {
+        float: left;
+
+        width: 24%;
+        flex-basis: 24%;
+    }
+    .col-xl-25:nth-child(5n) {
+        clear: both;
+    }
+}

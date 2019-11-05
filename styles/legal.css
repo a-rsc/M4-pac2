@@ -1,0 +1,11 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+.legal h1 {
+    text-align: center;
+    text-shadow: none;
+}
+.legal h2 {
+    text-align: justify;
+    text-shadow: none;
+}
