@@ -197,6 +197,8 @@ main {
     width: 100%;
 
     color: white;
+
+    z-index: 1000;
 }
 #main-slider .main-slider-description span {
     color: yellow;
